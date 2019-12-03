@@ -28,7 +28,8 @@
         <name>Submit for Review </name>
         <onclick/>
         <order>100</order>
-        <script/>
+        <script><![CDATA[current.state="Submitted";
+current.update();]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -39,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c386fae4dbe1401055ed7dda8c9619e4</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Submit for Review </sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -47,7 +48,7 @@
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_ui_action_c386fae4dbe1401055ed7dda8c9619e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-03 08:21:49</sys_updated_on>
+        <sys_updated_on>2019-12-03 14:33:27</sys_updated_on>
         <table>x_238199_skill_eva_submission</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

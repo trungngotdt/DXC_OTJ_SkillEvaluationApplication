@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_238199_skill_eva_submission</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_238199_skill_eva_submission">numberISNOTEMPTY^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>asd</p>]]></message>
+        <name>CalculateScoreAndLevel</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var score=0;
+	gs.info("AAAAAAAAAAAAAAAAAAAAAA");
+	var choices=["0","1","2","3","4"]
+	var base=new CountProficiencyLevels();
+	for(var i=0;i<choices.length;i++){
+		score=score+ base.CountLevel(choices[i],current.sys_id);
+	}
+	gs.info("[score]"+score);
+	current.score=score;
+	// Add your code here
+current.le
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-03 09:27:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bd98c3cdb29401055ed7dda8c9619c6</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>CalculateScoreAndLevel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sys_script_6bd98c3cdb29401055ed7dda8c9619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 14:06:54</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6bd98c3cdb29401055ed7dda8c9619c6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</application>
+        <file_path/>
+        <instance_id>3dcb6189dbe7b3c04d2bac44d4961927</instance_id>
+        <instance_name>dev92486</instance_name>
+        <name>sys_script_6bd98c3cdb29401055ed7dda8c9619c6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_238199_skill_eva_submission&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_238199_skill_eva_submission"&gt;numberISNOTEMPTY^EQ&lt;item endquery="false" field="number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;asd&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;CalculateScoreAndLevel&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var score=0;
+	gs.info("AAAAAAAAAAAAAAAAAAAAAA");
+	var choices=["0","1","2","3","4"]
+	var base=new CountProficiencyLevels();
+	for(var i=0;i&lt;choices.length;i++){
+		score=score+ base.CountLevel(choices[i],current.sys_id);
+	}
+	gs.info("[score]"+score);
+	current.score=score;
+	// Add your code here
+current.le
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-12-03 09:27:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6bd98c3cdb29401055ed7dda8c9619c6&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;CalculateScoreAndLevel&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Skill Evaluation" source="x_238199_skill_eva"&gt;bab44ca0db69001055ed7dda8c9619d0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Skill Evaluation"&gt;bab44ca0db69001055ed7dda8c9619d0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_6bd98c3cdb29401055ed7dda8c9619c6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-12-03 14:06:54&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6bd98c3cdb29401055ed7dda8c9619c6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1363744564</payload_hash>
+        <record_name>CalculateScoreAndLevel</record_name>
+        <reverted_from/>
+        <source>beb44ca0db69001055ed7dda8c9619d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-03 14:06:55</sys_created_on>
+        <sys_id>1f8dcdf4db2d401055ed7dda8c961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ecc15dc810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 14:06:55</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>178dcdf4ae2d4010950b23d0cb75a740</update_guid>
+        <update_guid_history>178dcdf4ae2d4010950b23d0cb75a740:-1363744564,6da8cdf0e32d4010255ca704261d7616:-659864717,0d87c5f0582d4010a417abcc5b562c8a:2115442259,a62781f0cf2d401043af6b0681077389:1430050330,fee649b08f2d4010b7fb2289c0cf8afd:-1628002237,42964db0bd2d4010760543f71edac02e:-163019850,88168570a52d40100173c608d96a74f1:100929149,6c9d4cfc7c2940106c698908cbafb1b9:1735442071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-03 14:25:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0f37a3e8e4de4f60a68d150ce19e3840</sys_id>
+        <sys_metadata>6bd98c3cdb29401055ed7dda8c9619c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CalculateScoreAndLevel</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_parent display_value="Submission">6b98c864db69001055ed7dda8c961975</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_scope_delete display_value="">021954db17e646208092b94a5b344990</sys_scope_delete>
+        <sys_update_name>sys_script_6bd98c3cdb29401055ed7dda8c9619c6</sys_update_name>
+        <sys_update_version display_value="sys_script_6bd98c3cdb29401055ed7dda8c9619c6">1f8dcdf4db2d401055ed7dda8c961940</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 14:25:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -34,7 +34,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-12-02 14:32:54</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_238199_skill_eva.cert_acquistion_user" name="x_238199_skill_eva.cert_acquistion_user">d6e948e4db69001055ed7dda8c961987</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

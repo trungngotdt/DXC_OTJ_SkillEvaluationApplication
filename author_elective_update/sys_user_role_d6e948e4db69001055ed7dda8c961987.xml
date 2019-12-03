@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_238199_skill_eva.cert_acquistion_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>cert_acquistion_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 14:32:54</sys_created_on>
+        <sys_id>d6e948e4db69001055ed7dda8c961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_238199_skill_eva.cert_acquistion_user</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sys_user_role_d6e948e4db69001055ed7dda8c961987</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 14:32:54</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</application>
+        <file_path/>
+        <instance_id>3dcb6189dbe7b3c04d2bac44d4961927</instance_id>
+        <instance_name>dev92486</instance_name>
+        <name>sys_user_role_d6e948e4db69001055ed7dda8c961987</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_238199_skill_eva.cert_acquistion_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>cert_acquistion_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-02 14:32:54</sys_created_on><sys_id>d6e948e4db69001055ed7dda8c961987</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_238199_skill_eva.cert_acquistion_user</sys_name><sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope><sys_update_name>sys_user_role_d6e948e4db69001055ed7dda8c961987</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-02 14:32:54</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1787593845</payload_hash>
+        <record_name>x_238199_skill_eva.cert_acquistion_user</record_name>
+        <reverted_from/>
+        <source>beb44ca0db69001055ed7dda8c9619d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 14:32:54</sys_created_on>
+        <sys_id>16e948e4db69001055ed7dda8c96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ec7074c000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 14:32:54</sys_updated_on>
+        <type>Role</type>
+        <update_guid>5ee948e456690010ef7b91005a13ed8a</update_guid>
+        <update_guid_history>5ee948e456690010ef7b91005a13ed8a:1787593845</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_238199_skill_eva.cert_acquistion_user">3f5e9978db6d401055ed7dda8c9619e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-03 15:20:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>19eaaa3596984dec9648caeb6bed5c44</sys_id>
+        <sys_metadata>d6e948e4db69001055ed7dda8c961987</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_238199_skill_eva.cert_acquistion_user</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_scope_delete display_value="">021954db17e646208092b94a5b344990</sys_scope_delete>
+        <sys_update_name>sys_user_role_d6e948e4db69001055ed7dda8c961987</sys_update_name>
+        <sys_update_version display_value="sys_user_role_d6e948e4db69001055ed7dda8c961987">16e948e4db69001055ed7dda8c96198b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 15:20:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

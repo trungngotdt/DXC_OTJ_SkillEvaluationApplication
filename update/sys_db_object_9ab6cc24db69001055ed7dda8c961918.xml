@@ -34,7 +34,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-12-03 05:40:37</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="x_238199_skill_eva.skill_user" name="x_238199_skill_eva.skill_user">06478c24db69001055ed7dda8c9619c8</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

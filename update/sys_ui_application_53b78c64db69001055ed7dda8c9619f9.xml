@@ -4,7 +4,7 @@
         <hint/>
         <name>Certificat</name>
         <order/>
-        <roles>x_238199_skill_eva.certificate_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-02 14:23:24</sys_created_on>
