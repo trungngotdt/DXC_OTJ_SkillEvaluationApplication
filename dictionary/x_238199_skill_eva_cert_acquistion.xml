@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cert Acquistion" max_length="40" name="x_238199_skill_eva_cert_acquistion" type="collection">
+        <element label="Certifed date" max_length="40" name="certifed_date" type="glide_date"/>
+        <element label="Certificate" max_length="32" name="certificate" reference="x_238199_skill_eva_certificate" type="reference"/>
+        <element label="Certification number" max_length="40" name="certification_number" type="string"/>
+        <element label="ServiceNow release" max_length="40" name="servicenow_release" type="string"/>
+        <element label="Submission" max_length="32" name="submission" reference="x_238199_skill_eva_submission" type="reference"/>
+        <index name="index">
+            <element name="certificate"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>

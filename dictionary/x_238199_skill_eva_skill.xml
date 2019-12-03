@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill" max_length="40" name="x_238199_skill_eva_skill" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Product Line" max_length="32" name="product_line" reference="x_238199_skill_eva_product_line" type="reference"/>
+        <element display="true" label="Skill Description" max_length="999" name="skill_description" type="string"/>
+        <element label="Weight" max_length="40" name="weight" type="integer"/>
+        <index name="index">
+            <element name="product_line"/>
+        </index>
+    </element>
+</database>

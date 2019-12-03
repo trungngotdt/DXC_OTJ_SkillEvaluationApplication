@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product Line" max_length="40" name="x_238199_skill_eva_product_line" type="collection">
+        <element label="Description" max_length="999" name="description" type="string"/>
+        <element display="true" label="Product Line" max_length="40" name="product_line" type="string"/>
+    </element>
+</database>

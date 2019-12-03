@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Skill Assessment" max_length="40" name="x_238199_skill_eva_skill_assessment" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element choice="3" default="0" label="Proficiency level" max_length="40" name="proficiency_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Conceptual/Trained" value="1"/>
+                <element inactive_on_update="false" label="Experienced" value="2"/>
+                <element inactive_on_update="false" label="Expert" value="3"/>
+                <element inactive_on_update="false" label="Guru" value="4"/>
+                <element inactive_on_update="false" label="Not Applicable" value="0"/>
+            </choice>
+        </element>
+        <element label="Skill" max_length="32" name="skill" reference="x_238199_skill_eva_skill" type="reference"/>
+        <element label="Submission" max_length="32" name="submission" reference="x_238199_skill_eva_submission" type="reference"/>
+        <index name="index">
+            <element name="skill"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>

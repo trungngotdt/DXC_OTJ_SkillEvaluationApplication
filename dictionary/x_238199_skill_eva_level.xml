@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Level" max_length="40" name="x_238199_skill_eva_level" type="collection">
+        <element display="true" label="Level" max_length="40" name="level" type="string"/>
+        <element label="Min Score" max_length="40" name="min_score" type="integer"/>
+    </element>
+</database>

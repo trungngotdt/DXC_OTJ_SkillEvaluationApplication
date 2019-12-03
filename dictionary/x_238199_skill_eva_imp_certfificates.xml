@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="imp_certfificates" max_length="40" name="x_238199_skill_eva_imp_certfificates" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Certificate" label="Certificate" max_length="76" name="u_certificate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Product Line" label="Product Line" max_length="40" name="u_product_line" type="string"/>
+        <element attributes="import_attribute_name=#" label="#" max_length="40" name="u__" type="integer"/>
+    </element>
+</database>

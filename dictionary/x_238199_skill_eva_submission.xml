@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Submission" max_length="40" name="x_238199_skill_eva_submission" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Assigned to" mandatory="true" max_length="32" name="assigned_to" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Description" mandatory="true" max_length="4000" name="description" type="string"/>
+        <element label="Level" max_length="32" name="level" read_only="true" reference="x_238199_skill_eva_level" type="reference"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened by" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Score" max_length="40" name="score" read_only="true" type="integer"/>
+        <element choice="3" default="Draft" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="Completed"/>
+                <element inactive_on_update="false" label="Draft" value="Draft"/>
+                <element inactive_on_update="false" label="Reviewed" value="Reviewed"/>
+                <element inactive_on_update="false" label="Submitted" value="Submitted"/>
+            </choice>
+        </element>
+        <element default="true" label="Valid" max_length="40" name="valid" read_only="true" type="boolean"/>
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="level"/>
+        </index>
+        <index name="index2">
+            <element name="opened_by"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
