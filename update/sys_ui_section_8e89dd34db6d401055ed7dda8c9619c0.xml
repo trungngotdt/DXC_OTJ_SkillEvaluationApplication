@@ -4,29 +4,29 @@
             <element>edit_condition</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-03 14:59:16</sys_created_on>
-            <sys_id>9a89dd34db6d401055ed7dda8c9619de</sys_id>
+            <sys_created_on>2019-12-04 08:50:06</sys_created_on>
+            <sys_id>a8ae8145dbe9801055ed7dda8c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="sys_ui_list_control" sys_domain="global" view="Default view">8e89dd34db6d401055ed7dda8c9619c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-03 14:59:16</sys_updated_on>
+            <sys_updated_on>2019-12-04 08:50:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>new_condition</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-03 14:59:16</sys_created_on>
-            <sys_id>1289dd34db6d401055ed7dda8c9619df</sys_id>
+            <sys_created_on>2019-12-04 08:50:06</sys_created_on>
+            <sys_id>2cae8145dbe9801055ed7dda8c961969</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="sys_ui_list_control" sys_domain="global" view="Default view">8e89dd34db6d401055ed7dda8c9619c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-03 14:59:16</sys_updated_on>
+            <sys_updated_on>2019-12-04 08:50:06</sys_updated_on>
             <sys_user/>
-            <type>.split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>New Section</caption>

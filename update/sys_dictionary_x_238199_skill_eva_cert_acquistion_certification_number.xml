@@ -17,7 +17,7 @@
         <column_label>Certification number</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:getNextObjNumberPadded();</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -25,7 +25,7 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value/>
+        <dynamic_default_value display_value="Get Next Padded Number">fdcb83a85f220100a9ad2572f2b4773c</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>certification_number</element>
         <element_reference>false</element_reference>
@@ -38,7 +38,7 @@
         <name>x_238199_skill_eva_cert_acquistion</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -54,19 +54,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-02 14:32:54</sys_created_on>
         <sys_id>2359c0e4db69001055ed7dda8c9619fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Certification number</sys_name>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_dictionary_x_238199_skill_eva_cert_acquistion_certification_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-02 14:32:54</sys_updated_on>
+        <sys_updated_on>2019-12-04 06:44:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>

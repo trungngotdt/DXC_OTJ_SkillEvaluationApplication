@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-04 02:24:59</sys_created_on>
+        <sys_id>9103bbf8db65801055ed7dda8c9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_238199_skill_eva.se_admin</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_security_acl display_value="">e3f2333cdb65801055ed7dda8c9619e6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9103bbf8db65801055ed7dda8c9619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-04 02:24:59</sys_updated_on>
+        <sys_user_role display_value="x_238199_skill_eva.se_admin" name="x_238199_skill_eva.se_admin">06f4cca4db29001055ed7dda8c96192d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</application>
+        <file_path/>
+        <instance_id>3dcb6189dbe7b3c04d2bac44d4961927</instance_id>
+        <instance_name>dev92486</instance_name>
+        <name>sys_security_acl_role_9103bbf8db65801055ed7dda8c9619ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 02:24:59</sys_created_on><sys_id>9103bbf8db65801055ed7dda8c9619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_238199_skill_eva.se_admin</sys_name><sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope><sys_security_acl display_value="">e3f2333cdb65801055ed7dda8c9619e6</sys_security_acl><sys_update_name>sys_security_acl_role_9103bbf8db65801055ed7dda8c9619ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 02:24:59</sys_updated_on><sys_user_role display_value="x_238199_skill_eva.se_admin" name="x_238199_skill_eva.se_admin">06f4cca4db29001055ed7dda8c96192d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-138875269</payload_hash>
+        <record_name>.x_238199_skill_eva.se_admin</record_name>
+        <reverted_from/>
+        <source>beb44ca0db69001055ed7dda8c9619d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-04 02:24:59</sys_created_on>
+        <sys_id>8f7637fcdb65801055ed7dda8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16eceb995130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-04 02:24:59</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c77637fc1b658010aac7e0ab4b24f22a</update_guid>
+        <update_guid_history>c77637fc1b658010aac7e0ab4b24f22a:-138875269</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_238199_skill_eva.se_admin">3c8ccd81dbe9801055ed7dda8c9619fc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-04 08:40:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>05e575a88ef64c3c803177f6dfa41be4</sys_id>
+        <sys_metadata>9103bbf8db65801055ed7dda8c9619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_238199_skill_eva.se_admin</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_scope_delete display_value="">021954db17e646208092b94a5b344990</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_9103bbf8db65801055ed7dda8c9619ab</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_9103bbf8db65801055ed7dda8c9619ab">8f7637fcdb65801055ed7dda8c96192a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-04 08:40:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
