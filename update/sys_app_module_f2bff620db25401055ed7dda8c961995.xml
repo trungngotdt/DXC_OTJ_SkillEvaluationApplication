@@ -4,7 +4,9 @@
         <application display_value="Skill Evaluation">d285c8e0db69001055ed7dda8c961945</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_238199_skill_eva_submission">stateINReviewed,Submitted^EQ<item display_value="Reviewed,Submitted" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="Reviewed,Submitted"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -24,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f2bff620db25401055ed7dda8c961995</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Awaiting Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -32,7 +34,7 @@
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_app_module_f2bff620db25401055ed7dda8c961995</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-04 03:02:49</sys_updated_on>
+        <sys_updated_on>2019-12-05 01:31:11</sys_updated_on>
         <timeline_page/>
         <title>Awaiting Approval</title>
         <uncancelable>false</uncancelable>
