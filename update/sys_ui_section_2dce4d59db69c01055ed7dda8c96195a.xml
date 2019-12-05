@@ -4,15 +4,29 @@
             <element>activity.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-05 03:29:12</sys_created_on>
-            <sys_id>21ce4d59db69c01055ed7dda8c9619f2</sys_id>
+            <sys_created_on>2019-12-05 12:58:33</sys_created_on>
+            <sys_id>a9115715db61041055ed7dda8c961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="New Section" display_value="New Section" name="kb_knowledge" sys_domain="global" view="Default view">2dce4d59db69c01055ed7dda8c96195a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-05 03:29:12</sys_updated_on>
+            <sys_updated_on>2019-12-05 12:58:33</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-05 12:58:33</sys_created_on>
+            <sys_id>e1115715db61041055ed7dda8c961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="kb_knowledge" sys_domain="global" view="Default view">2dce4d59db69c01055ed7dda8c96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-05 12:58:33</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>New Section</caption>

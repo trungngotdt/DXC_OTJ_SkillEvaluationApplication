@@ -28,7 +28,19 @@
         <name>Reject</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.state="Draft";
+        <script><![CDATA[/*var gr = new GlideRecord('sysapproval_approver');
+gr.addQuery('document_id',current.getValue('sys_id'));
+gr.addQuery('state', 'requested');
+gr.addQuery("approver",gs.getUserID());
+gr.query();
+while (gr.next()) {
+	
+	gs.info("sys_id "+gr.sys_id);
+	gs.info("state "+gr.state);
+	gr.state = 'not requested';
+	gr.update();
+}*/
+current.state="Draft";
 current.update();]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -40,7 +52,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75ebd1b4db6d401055ed7dda8c961974</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Reject</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -48,7 +60,7 @@ current.update();]]></script>
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_ui_action_75ebd1b4db6d401055ed7dda8c961974</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-04 02:24:39</sys_updated_on>
+        <sys_updated_on>2019-12-05 15:12:21</sys_updated_on>
         <table>x_238199_skill_eva_submission</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
