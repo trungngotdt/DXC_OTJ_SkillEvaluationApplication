@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Levels</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 14:16:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5e260424db69001055ed7dda8c9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Levels</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sys_ui_module_5e260424db69001055ed7dda8c9619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 14:16:31</sys_updated_on>
+        <table>x_238199_skill_eva_level</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</application>
+        <file_path/>
+        <instance_id>3dcb6189dbe7b3c04d2bac44d4961927</instance_id>
+        <instance_name>dev92486</instance_name>
+        <name>sys_ui_module_5e260424db69001055ed7dda8c9619db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Levels</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-02 14:16:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5e260424db69001055ed7dda8c9619db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Levels</sys_name><sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope><sys_update_name>sys_ui_module_5e260424db69001055ed7dda8c9619db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-02 14:16:31</sys_updated_on><table>x_238199_skill_eva_level</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-2095140251</payload_hash>
+        <record_name>Levels</record_name>
+        <reverted_from/>
+        <source>39f7729adb29c41055ed7dda8c96194a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 06:38:21</sys_created_on>
+        <sys_id>cf60226edb65081055ed7dda8c961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ee96157890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-09 06:38:21</sys_updated_on>
+        <type>Module</type>
+        <update_guid>4f60226ef56508102d2d7a3e6ef78973</update_guid>
+        <update_guid_history>4f60226ef56508102d2d7a3e6ef78973:0,d22604242e690010f61c5b3d1a8289de:-1051055489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 06:39:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>6361438c7d4a47119e7661fe7fff8869</sys_id>
+        <sys_metadata>5e260424db69001055ed7dda8c9619db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Levels</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_scope_delete display_value="">021954db17e646208092b94a5b344990</sys_scope_delete>
+        <sys_update_name>sys_ui_module_5e260424db69001055ed7dda8c9619db</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_5e260424db69001055ed7dda8c9619db">cf60226edb65081055ed7dda8c961973</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-09 06:39:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

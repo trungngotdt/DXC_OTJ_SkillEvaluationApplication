@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Skill Assessment</name>
+        <order/>
+        <roles>x_238199_skill_eva.skill_assessment_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 14:30:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>015908e4db69001055ed7dda8c961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skill Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sys_ui_application_015908e4db69001055ed7dda8c961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 14:30:21</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</application>
+        <file_path/>
+        <instance_id>3dcb6189dbe7b3c04d2bac44d4961927</instance_id>
+        <instance_name>dev92486</instance_name>
+        <name>sys_ui_application_015908e4db69001055ed7dda8c961906</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Skill Assessment</name><order/><roles>x_238199_skill_eva.skill_assessment_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-02 14:30:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>015908e4db69001055ed7dda8c961906</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Skill Assessment</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope><sys_update_name>sys_ui_application_015908e4db69001055ed7dda8c961906</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-02 14:30:21</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-541076498</payload_hash>
+        <record_name>Skill Assessment</record_name>
+        <reverted_from/>
+        <source>beb44ca0db69001055ed7dda8c9619d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 14:30:21</sys_created_on>
+        <sys_id>855908e4db69001055ed7dda8c961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ec704f6f50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 14:30:21</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>cd5908e464690010b54c50ae7f242106</update_guid>
+        <update_guid_history>cd5908e464690010b54c50ae7f242106:-541076498</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-09 06:38:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>695c9655b79340ae93fcd056760ea364</sys_id>
+        <sys_metadata>015908e4db69001055ed7dda8c961906</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skill Assessment</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_scope_delete display_value="">021954db17e646208092b94a5b344990</sys_scope_delete>
+        <sys_update_name>sys_ui_application_015908e4db69001055ed7dda8c961906</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_015908e4db69001055ed7dda8c961906">855908e4db69001055ed7dda8c961907</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-09 06:38:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

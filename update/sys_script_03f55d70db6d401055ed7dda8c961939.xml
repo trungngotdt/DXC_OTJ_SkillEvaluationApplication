@@ -28,7 +28,6 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-	
     var gr = new GlideRecord('x_238199_skill_eva_submission');
     gr.addQuery('assigned_to.sys_id', gs.getUserID());
     gr.addQuery('state','!=', "Completed");
@@ -44,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>03f55d70db6d401055ed7dda8c961939</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>PreventInvalidInsert</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -52,7 +51,7 @@
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_script_03f55d70db6d401055ed7dda8c961939</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-09 01:39:42</sys_updated_on>
+        <sys_updated_on>2019-12-10 03:17:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
