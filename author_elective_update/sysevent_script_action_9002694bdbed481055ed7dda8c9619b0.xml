@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="DELETE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_238199_skill_eva.terminateReminder</event_name>
+        <name>Terminate</name>
+        <order>100</order>
+        <script/>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 15:22:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9002694bdbed481055ed7dda8c9619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terminate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sysevent_script_action_9002694bdbed481055ed7dda8c9619b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 15:22:50</sys_updated_on>
+    </sysevent_script_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</application>
+        <file_path/>
+        <instance_id>3dcb6189dbe7b3c04d2bac44d4961927</instance_id>
+        <instance_name>dev92486</instance_name>
+        <name>sysevent_script_action_9002694bdbed481055ed7dda8c9619b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action"><sysevent_script_action action="INSERT_OR_UPDATE"><active>true</active><condition_script/><description/><event_name>x_238199_skill_eva.terminateReminder</event_name><name>Terminate</name><order>100</order><script/><synchronous>false</synchronous><sys_class_name>sysevent_script_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-10 15:22:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9002694bdbed481055ed7dda8c9619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Terminate</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope><sys_update_name>sysevent_script_action_9002694bdbed481055ed7dda8c9619b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-10 15:22:50</sys_updated_on></sysevent_script_action></record_update>]]></payload>
+        <payload_hash>-39880999</payload_hash>
+        <record_name>Terminate</record_name>
+        <reverted_from/>
+        <source>81fe1547dbed481055ed7dda8c961963</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 15:22:50</sys_created_on>
+        <sys_id>3f02258bdbed481055ed7dda8c9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ef067e3790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-10 15:22:50</sys_updated_on>
+        <type>Script Action</type>
+        <update_guid>7702258b97ed48102dfe6cb8a38cc3c1</update_guid>
+        <update_guid_history>7702258b97ed48102dfe6cb8a38cc3c1:-39880999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-11 01:15:44</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_script_action">sysevent_script_action</sys_db_object>
+        <sys_id>336258a578cc4691b9d15280a32ec8f1</sys_id>
+        <sys_metadata>9002694bdbed481055ed7dda8c9619b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terminate</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_scope_delete display_value="">021954db17e646208092b94a5b344990</sys_scope_delete>
+        <sys_update_name>sysevent_script_action_9002694bdbed481055ed7dda8c9619b0</sys_update_name>
+        <sys_update_version display_value="sysevent_script_action_9002694bdbed481055ed7dda8c9619b0">3f02258bdbed481055ed7dda8c9619c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-11 01:15:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
