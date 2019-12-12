@@ -19,14 +19,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_238199_skill_eva.se_admin,x_238199_skill_eva.se_user</roles>
+        <roles>x_238199_skill_eva.se_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-03 03:35:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c90dba2cdbe1401055ed7dda8c9619ea</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>My Skill Evalutions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_app_module_c90dba2cdbe1401055ed7dda8c9619ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-03 04:03:14</sys_updated_on>
+        <sys_updated_on>2019-12-12 02:32:58</sys_updated_on>
         <timeline_page/>
         <title>My Skill Evalutions</title>
         <uncancelable>false</uncancelable>

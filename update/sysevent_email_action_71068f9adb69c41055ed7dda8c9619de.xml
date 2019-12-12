@@ -47,7 +47,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups name="Skill Evaluation PM">6e8c4ca8db69001055ed7dda8c9619f6</recipient_groups>
-        <recipient_users/>
+        <recipient_users>test@test.com</recipient_users>
         <reply_to/>
         <send_self>false</send_self>
         <sms_alternate/>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>71068f9adb69c41055ed7dda8c9619de</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Reminder to Group PM</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sysevent_email_action_71068f9adb69c41055ed7dda8c9619de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-11 01:41:08</sys_updated_on>
+        <sys_updated_on>2019-12-11 08:58:45</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
