@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_238199_skill_eva.DeleteSchedule</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DeleteSchedule</name>
+        <script><![CDATA[function DeleteSchedule(number,who){
+	
+	var nameOfSchedule=number+"schedule"+who;
+	var gr=new GlideRecord("sysauto_script");	
+	gr.addQuery("name",nameOfSchedule);
+	gr.query();
+	gr.deleteMultiple();
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-13 06:03:11</sys_created_on>
+        <sys_id>3a3dbe73dbe5401055ed7dda8c961995</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DeleteSchedule</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sys_script_include_3a3dbe73dbe5401055ed7dda8c961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-13 06:07:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

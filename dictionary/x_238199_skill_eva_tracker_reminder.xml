@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Tracker Reminder" max_length="40" name="x_238199_skill_eva_tracker_reminder" type="collection">
+        <element label="DateTime" max_length="40" name="datetime" type="glide_date_time"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Submission Number" max_length="40" name="submission_number" type="string"/>
+        <element label="Who" max_length="40" name="who" type="string"/>
+    </element>
+</database>

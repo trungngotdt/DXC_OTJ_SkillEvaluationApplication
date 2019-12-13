@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_238199_skill_eva.SendEmailReminder</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SendEmailReminder</name>
+        <script><![CDATA[function SendEmailReminder(number, timeStart, who) {
+    var instance=null;
+	var sub = new GlideRecord("x_238199_skill_eva_submission");
+    sub.addQuery("number", number);
+    sub.query();
+    if (sub.next()) {
+		instance=sub;
+    }
+	
+    if (who == "PM") {
+        gs.eventQueue("x_238199_skill_eva.reminderPM", sub, number, "");
+    } else {
+        gs.eventQueue("x_238199_skill_eva.reminderCOE", sub, number, "");
+    }
+
+    var gr = new GlideRecord("x_238199_skill_eva_tracker_reminder");
+    gr.initialize();
+    gr.datetime = timeStart;
+    gr.who = who;
+    gr.submission_number = number;
+    gr.insert();
+
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-13 05:24:52</sys_created_on>
+        <sys_id>eb95f2b3dbe5401055ed7dda8c961963</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>SendEmailReminder</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
+        <sys_update_name>sys_script_include_eb95f2b3dbe5401055ed7dda8c961963</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-13 07:26:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

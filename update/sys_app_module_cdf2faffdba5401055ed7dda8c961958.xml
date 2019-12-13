@@ -4,39 +4,37 @@
         <application display_value="Skill Evaluation">d285c8e0db69001055ed7dda8c961945</application>
         <assessment/>
         <device_type/>
-        <filter table="x_238199_skill_eva_submission">numberINjavascript:(new x_238199_skill_eva.getSubmission()).get()^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="IN" or="false" value="javascript:(new x_238199_skill_eva.getSubmission()).get()"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint/>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>New Evalution</mobile_title>
+        <mobile_title>Tracker Reminders</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_238199_skill_eva_submission</name>
-        <order>400</order>
+        <name>x_238199_skill_eva_tracker_reminder</name>
+        <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
         <roles>x_238199_skill_eva.se_admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-03 03:45:51</sys_created_on>
+        <sys_created_on>2019-12-13 05:11:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>b96ffe6cdbe1401055ed7dda8c961903</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>My SE Approvals</sys_name>
+        <sys_id>cdf2faffdba5401055ed7dda8c961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tracker Reminders</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
-        <sys_update_name>sys_app_module_b96ffe6cdbe1401055ed7dda8c961903</sys_update_name>
+        <sys_update_name>sys_app_module_cdf2faffdba5401055ed7dda8c961958</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-13 03:00:30</sys_updated_on>
+        <sys_updated_on>2019-12-13 05:11:43</sys_updated_on>
         <timeline_page/>
-        <title>My SE Approvals</title>
+        <title>Tracker Reminders</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

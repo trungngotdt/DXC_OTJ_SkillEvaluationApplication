@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state=="Submitted"&amp;&amp;gs.getUser().isMemberOf(­"Skill Evaluation PM")&amp;&amp;!x_238199_skill_eva.CheckIsApprovedOrRejected(current.sys_id)</condition>
+        <condition>current.state=="Submitted"&amp;&amp;gs.getUser().isMemberOf(­"Skill Evaluation PM")&amp;&amp;x_238199_skill_eva.CheckIsRequested(current.sys_id)</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -54,7 +54,7 @@ if (! current.isActionAborted())
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>35ab5d34db6d401055ed7dda8c96199a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_238199_skill_eva">bab44ca0db69001055ed7dda8c9619d0</sys_package>
@@ -62,7 +62,7 @@ if (! current.isActionAborted())
         <sys_scope display_value="Skill Evaluation">bab44ca0db69001055ed7dda8c9619d0</sys_scope>
         <sys_update_name>sys_ui_action_35ab5d34db6d401055ed7dda8c96199a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-10 02:43:55</sys_updated_on>
+        <sys_updated_on>2019-12-13 01:30:28</sys_updated_on>
         <table>x_238199_skill_eva_submission</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
